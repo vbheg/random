@@ -176,14 +176,14 @@ local makefolder = makefolder or make_folder or createfolder or create_folder
 if not isfolder("RuRuUILib") then
 makefolder("RuRuUILib")
     
-local Shadow = request({Url = "https://raw.githubusercontent.com/inf-ontop/UI-Library/refs/heads/main/Icons/Shadow.png", Method = "GET"})
-writefile("UI-Library/Shadow.png", Shadow.Body)
+local Shadow = request({Url = "https://raw.githubusercontent.com/vbheg/random/refs/heads/main/Icons/Shadow.png", Method = "GET"})
+writefile("random/Shadow.png", Shadow.Body)
 
-local Chevron = request({Url = "https://raw.githubusercontent.com/inf-ontop/UI-Library/refs/heads/main/Icons/Chevron.png", Method = "GET"})
-writefile("UI-Library/Chevron.png", Chevron.Body)
+local Chevron = request({Url = "https://raw.githubusercontent.com/vbheg/random/refs/heads/main/Icons/Chevron.png", Method = "GET"})
+writefile("random/Chevron.png", Chevron.Body)
 
-local Circle = request({Url = "https://raw.githubusercontent.com/inf-ontop/UI-Library/refs/heads/main/Icons/Circle.png", Method = "GET"})
-writefile("UI-Library/Circle.png", Circle.Body)
+local Circle = request({Url = "https://raw.githubusercontent.com/vbheg/random/refs/heads/main/Icons/Circle.png", Method = "GET"})
+writefile("random/Circle.png", Circle.Body)
 end
 
 local SelectedTab = nil
