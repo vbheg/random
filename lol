@@ -1,11 +1,3 @@
---[[
-    ╔══════════════════════════════════════════════════════════╗
-    ║                     RuRu's PRIVATE Library               ║
-    ║                       Version: 1.0.0                     ║
-    ║                     Developed by: RuRu                   ║
-    ╚══════════════════════════════════════════════════════════╝
-]]
-
 local library = {
     Flags = {},
     SectionsOpened = false,
@@ -15,9 +7,6 @@ library.flags = library.Flags
 library.theme = library.Theme
 
 local Themes = {
--- ================================================================
---                          Default Themes
--- ================================================================
     ["Dark"] = {
         Topbar = Color3.fromRGB(30, 30, 35),
         TabContainer = Color3.fromRGB(25, 25, 30),
@@ -120,10 +109,7 @@ local Themes = {
         HighlightUIStroke = Color3.fromRGB(79, 94, 124),
         Highlight = Color3.fromRGB(255, 229, 121)
     },
--- ================================================================
---                          Custom Themes
--- ================================================================
-	["RuRu's Personal Theme"] = {
+	["Personal Theme"] = {
         Topbar = Color3.fromRGB(30, 30, 35),
         TabContainer = Color3.fromRGB(25, 25, 30),
         Lines = Color3.fromRGB(50, 50, 55),
@@ -173,8 +159,8 @@ local getcustomasset = getcustomasset or getsynasset
 local isfolder = isfolder or syn_isfolder or is_folder
 local makefolder = makefolder or make_folder or createfolder or create_folder
 
-if not isfolder("RuRuUILib") then
-makefolder("RuRuUILib")
+if not isfolder("random") then
+makefolder("random")
     
 local Shadow = request({Url = "https://raw.githubusercontent.com/vbheg/random/refs/heads/main/Icons/Shadow.png", Method = "GET"})
 writefile("random/Shadow.png", Shadow.Body)
