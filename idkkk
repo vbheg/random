@@ -185,7 +185,7 @@ Title.Size = UDim2.new(1, -60, 0, 20)
 Title.Font = Enum.Font.Arial
 Title.Text = "Gamer Time"
 Title.TextColor3 = Color3.new(1, 1, 1)
-Title.TextSize = 14
+Title.TextSize = 25
 Title.TextXAlignment = Enum.TextXAlignment.Center
 
 TabSelection.Name = "TabSelection"
@@ -398,7 +398,7 @@ TabButton.ZIndex = 2
 TabButton.Font = Enum.Font.Garamond
 TabButton.Text = "Test tab"
 TabButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-TabButton.TextSize = 17
+TabButton.TextSize = 20
 
 TextButton_Roundify_4px_2.Name = "TextButton_Roundify_4px"
 TextButton_Roundify_4px_2.Parent = TabButton
@@ -748,10 +748,10 @@ DropdownButton.BackgroundColor3 = Color3.new(0.129412, 0.133333, 0.141176)
 DropdownButton.BorderSizePixel = 0
 DropdownButton.Size = UDim2.new(1, 0, 0, 20)
 DropdownButton.ZIndex = 3
-DropdownButton.Font = Enum.Font.Garamond
+DropdownButton.Font = Enum.Font.GothamBold
 DropdownButton.Text = "      Button"
 DropdownButton.TextColor3 = Color3.new(0.784314, 0.784314, 0.784314)
-DropdownButton.TextSize = 17
+DropdownButton.TextSize = 14
 DropdownButton.TextXAlignment = Enum.TextXAlignment.Left
 
 Keybind.Name = "Keybind"
