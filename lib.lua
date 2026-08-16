@@ -107,7 +107,7 @@ Label.TextXAlignment = Enum.TextXAlignment.Left
 Window.Name = "Window"
 Window.Parent = Prefabs
 Window.Active = true
-Window.BackgroundColor3 = Color3.new(1, 1, 1)
+Window.BackgroundColor3 = Color3.new(0, 0, 0)
 Window.BackgroundTransparency = 1
 Window.ClipsDescendants = true
 Window.Position = UDim2.new(0, 20, 0, 20)
@@ -140,9 +140,9 @@ Toggle.Name = "Toggle"
 Toggle.Parent = Bar
 Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle.BackgroundTransparency = 1
-Toggle.Position = UDim2.new(0, 5, 0, -2)
+Toggle.Position = UDim2.new(0, 2, 0, 0)
 Toggle.Rotation = 90
-Toggle.Size = UDim2.new(0, 20, 0, 20)
+Toggle.Size = UDim2.new(0, 26, 0, 26)
 Toggle.ZIndex = 2
 Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=113281701497572"
 
