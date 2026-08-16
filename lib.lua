@@ -142,7 +142,7 @@ Toggle.BackgroundColor3 = Color3.new(1, 1, 1)
 Toggle.BackgroundTransparency = 1
 Toggle.Position = UDim2.new(0, 5, 0, -2)
 Toggle.Rotation = 90
-Toggle.Size = UDim2.new(0, 26, 0, 26)
+Toggle.Size = UDim2.new(0, 24, 0, 24)
 Toggle.ZIndex = 2
 Toggle.Image = "https://www.roblox.com/Thumbs/Asset.ashx?width=420&height=420&assetId=113281701497572"
 
